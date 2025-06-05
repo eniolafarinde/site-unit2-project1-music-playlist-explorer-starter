@@ -1,0 +1,162 @@
+[
+  {
+    "playlistID": 1,
+    "playlist_name": "Chill Vibes",
+    "playlist_author": "DJ Zen",
+    "playlist_art": "assets/img/daniel-akselrod-GRgfv49Nf-M-unsplash.jpg",
+    "likes": 150,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
+    ]
+  },
+  {
+    "playlistID": 2,
+    "playlist_name": "Workout Hits",
+   "playlist_author": "Coach Beats",
+    "playlist_art": "assets/img/evie-s-qLpf369DrCw-unsplash.jpg",
+    "likes": 250,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+
+  {
+    "playlistID": 3,
+    "playlist_name": "Focus Flow",
+    "playlist_author": "DeepMind",
+    "playlist_art": "assets/img/luca-ercolani-pPLKOwxVmfE-unsplash.jpg",
+    "likes": 190,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 4,
+    "playlist_name": "Party Time",
+    "playlist_author": "MC Flash",
+    "playlist_art": "assets/img/matthew-stephenson--W2NIZ05WrM-unsplash.jpg",
+    "likes": 310,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 5,
+    "playlist_name": "Morning Energy",
+    "playlist_author": "Sunrise Sound",
+    "playlist_art": "assets/img/playlist.png",
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 6,
+    "playlist_name": "Sleep Sounds",
+    "playlist_author": "Dreamwave",
+    "playlist_art": "assets/img/schayan-kasmaei-REhMRF3-Q_I-unsplash.jpg",
+    "likes": 220,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 7,
+    "playlist_name": "Jazz & Blues",
+    "playlist_author": "Smooth Tones",
+    "playlist_art": "assets/img/the-chaffins-48OfnNBg4JI-unsplash.jpg",
+    "likes": 145,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 8,
+    "playlist_name": "Study Classics",
+    "playlist_author": "Maestro Focus",
+    "playlist_art": "assets/img/willian-justen-de-vasconcellos-cObqVf6DnDg-unsplash.jpg",
+    "likes": 275,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 9,
+    "playlist_name": "Afro Fusion",
+    "playlist_author": "Beat Master K",
+    "playlist_art": "assets/img/playlist.png",
+    "likes": 310,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  },
+  {
+    "playlistID": 10,
+    "playlist_name": "Throwback Jams",
+    "playlist_author": "Retro DJ",
+    "playlist_art": "assets/img/TAYLOR-ARTISTS-717x437-Cat Burns.jpg",
+    "likes": 340,
+    "songs": [
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    ]
+  }
+]
