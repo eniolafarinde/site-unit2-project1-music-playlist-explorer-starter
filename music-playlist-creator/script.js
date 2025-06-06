@@ -370,7 +370,7 @@ function showAddEditPlaylistForm(playlistToEdit = null) {
 
 
     // Form submission listener for both Add and Edit
-    document.getElementById('add-edit-playlist-form').addEventListener('submit', function (e) {
+    document.getElementById('add-edit-playlist-form').addEventListener('submit-btn', function (e) {
         e.preventDefault();
 
         const name = document.getElementById('playlist-name').value;
