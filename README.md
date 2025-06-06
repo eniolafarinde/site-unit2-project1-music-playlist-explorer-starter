@@ -1,5 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 Unit Assignment: Music Playlist Explorer
 
 Submitted by: Eniola Farinde
@@ -57,7 +55,6 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
 - [*] **Shuffle Songs**
   - [*] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist's detail modal.
   - [*] When the shuffle button is clicked, the playlist's songs should display in a different order.
-  - [*] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
   
 - [*] **Featured Page**
   - [*] Application includes a dedicated page that randomly selects and displays a playlist, showing the playlist’s:
@@ -70,7 +67,6 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
   - [*] When the page is refreshed or reloaded, a new random playlist is displayed
     - For example, navigating to the all playlists page and then back to the featured playlist page should result in a new random playlist being displayed
     - Note that because your algorithm will not be truly random, it is possible that the same playlist will feature twice in a row. 
-    - [*] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
   - [*] Application includes a navigation bar or some other mechanism such that users can navigate to the page with all playlists from the featured page and vice versa without using the browser's back and forward buttons. 
 
 #### STRETCH FEATURES
@@ -85,7 +81,6 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
       - [*] Title
       - [*] Artist
   - [*] The resulting playlist should display in the grid view.
-  - [*] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please show yourself adding at least two songs to the playlist. 
 
 - [*] **Edit Existing Playlists**
   - [*] Enable users to modify the details of existing playlists.
@@ -95,9 +90,6 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
     - [*] Author
     - [*] Songs
   - [*] The playlist grid view and playlist detail modal should update to display any changes (see Required Features, Criterion 1 & 2).
-  - [*] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please show yourself:
-    - [*] Editing all of a playlist's features (name, creator, AND songs)
-    - [*] Editing some of a playlist's features (name, creator, OR songs) 
 
 - [*] **Delete Playlists**
   - [*] Add a delete button to each playlist tile within the grid view.
