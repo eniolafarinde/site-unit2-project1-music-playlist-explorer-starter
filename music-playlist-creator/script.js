@@ -1,9 +1,12 @@
 // Global array to hold all playlist data. This will be in-memory.
 let playlistsData = []; 
-let currentSortOrder = 'none'; // To keep track of the active sort
-let currentSearchQuery = ''; // To keep track of the active search
+let currentSortOrder = 'none'; 
+let currentSearchQuery = '';
 
-// Function to fetch initial data (if data.json exists and you want to pre-load)
+
+let currentFormSubmitListener = null; 
+
+// Function to fetch initial data
 async function loadInitialPlaylists() {
     try {
         const response = await fetch('data/data.json');
@@ -13,14 +16,13 @@ async function loadInitialPlaylists() {
             return;
         }
         const initialPlaylists = await response.json();
-        // IMPORTANT: For date added, if data.json doesn't have a timestamp, add one.
-        // This is crucial for "Date Added" sorting.
+
         playlistsData = initialPlaylists.map(p => ({
             ...p,
-            playlistID: p.playlistID || Date.now() + Math.random(), // Ensure unique ID even if missing
-            dateAdded: p.dateAdded || Date.now() // Add timestamp if not present
+            playlistID: p.playlistID || Date.now() + Math.random(), 
+            dateAdded: p.dateAdded || Date.now() 
         }));
-        renderFilteredAndSortedPlaylists(); // Render them to the UI
+        renderFilteredAndSortedPlaylists(); // Rendering them to the UI
     } catch (error) {
         console.error('Error loading initial playlists:', error);
         document.querySelector('.playlist-cards').innerHTML = '<p>Error loading playlists.</p>';
@@ -28,9 +30,9 @@ async function loadInitialPlaylists() {
     }
 }
 
-// --- Main Rendering Function (now handles filter and sort) ---
+// Main Rendering Function
 function renderFilteredAndSortedPlaylists() {
-    let displayedPlaylists = [...playlistsData]; // Start with a copy of all data
+    let displayedPlaylists = [...playlistsData];
 
     // 1. Apply Search Filter
     if (currentSearchQuery) {
@@ -53,10 +55,8 @@ function renderFilteredAndSortedPlaylists() {
         case 'date-desc':
             displayedPlaylists.sort((a, b) => b.dateAdded - a.dateAdded);
             break;
-        case 'none': // Default or no sorting
+        case 'none': 
         default:
-            // Maintain original order or simply don't sort
-            // If you want a consistent default order when 'none', sort by playlistID or dateAdded (asc)
             displayedPlaylists.sort((a,b) => a.playlistID - b.playlistID); 
             break;
     }
@@ -171,8 +171,7 @@ function handleDeleteButtonClick(e) {
 
 function deletePlaylist(playlistId) {
     playlistsData = playlistsData.filter(p => p.playlistID.toString() !== playlistId);
-    renderFilteredAndSortedPlaylists(); // Re-render with current filter/sort
-    // Close modal if it's open and showing the deleted playlist
+    renderFilteredAndSortedPlaylists(); 
     const modal = document.getElementById('main-modal');
     if (modal.style.display === 'flex' && modal.dataset.currentPlaylistId == playlistId) {
         modal.style.display = 'none';
@@ -180,7 +179,7 @@ function deletePlaylist(playlistId) {
 }
 
 
-// --- Modal Functions ---
+// Modal Functions
 
 function setupModalCloseListeners() {
     const modal = document.getElementById('main-modal');
@@ -261,7 +260,7 @@ function showPlaylistModal(playlist) {
 }
 
 
-// --- Re-usable Add/Edit Playlist Form Function ---
+//Re-usable Add/Edit Playlist Form Function 
 function showAddEditPlaylistForm(playlistToEdit = null) {
     const modal = document.getElementById('main-modal');
     const modalContent = document.getElementById('modal-content');
@@ -295,17 +294,17 @@ function showAddEditPlaylistForm(playlistToEdit = null) {
             <div id="songs-container">
                 ${isEditing && playlistToEdit.songs && playlistToEdit.songs.length > 0 ? playlistToEdit.songs.map(song => `
                     <div class="song-input">
-                        <input type="text" placeholder="Song Title" class="song" value="${song.title}" required>
+                        <input type="text" placeholder="Song Title" class="song-title" value="${song.title}" required>
                         <input type="text" placeholder="Artist" class="song-artist" value="${song.artist}" required>
                         <input type="text" placeholder="Duration (e.g. 3:45)" class="song-duration" value="${song.duration}" required>
-                        <button type="button" class="remove-song-btn"><i class="fas fa-trash-alt"></i> Remove</button>
+                        <button type="button" class="remove-song-btn">Remove</button>
                     </div>
                 `).join('') : `
                     <div class="song-input">
                         <input type="text" placeholder="Song Title" class="song-title" required>
                         <input type="text" placeholder="Artist" class="song-artist" required>
                         <input type="text" placeholder="Duration (e.g. 3:45)" class="song-duration" required>
-                        <button type="button" class="remove-song-btn"><i class="fas fa-trash-alt"></i> Remove</button>
+                        <button type="button" class="remove-song-btn">Remove</button>
                     </div>
                 `}
             </div>
@@ -347,7 +346,7 @@ function showAddEditPlaylistForm(playlistToEdit = null) {
             <input type="text" placeholder="Song Title" class="song-title" required>
             <input type="text" placeholder="Artist" class="song-artist" required>
             <input type="text" placeholder="Duration (e.g. 3:45)" class="song-duration" required>
-            <button type="button" class="remove-song-btn"><i class="fas fa-trash-alt"></i> Remove</button>
+            <button type="button" class="remove-song-btn">Remove</button>
         `;
         songContainer.appendChild(newSongDiv);
         setupRemoveSongButtons(); 
@@ -368,9 +367,13 @@ function showAddEditPlaylistForm(playlistToEdit = null) {
     }
     setupRemoveSongButtons(); 
 
+    const addEditPlaylistForm = document.getElementById('add-edit-playlist-form');
 
-    // Form submission listener for both Add and Edit
-    document.getElementById('add-edit-playlist-form').addEventListener('submit-btn', function (e) {
+    if (currentFormSubmitListener) {
+        addEditPlaylistForm.removeEventListener('submit', currentFormSubmitListener);
+    }
+
+    currentFormSubmitListener = function (e) {
         e.preventDefault();
 
         const name = document.getElementById('playlist-name').value;
@@ -399,7 +402,9 @@ function showAddEditPlaylistForm(playlistToEdit = null) {
             }
             processPlaylistSubmission(name, author, finalPlaylistArt, songs, isEditing, playlistToEdit);
         }
-    });
+    };
+
+    addEditPlaylistForm.addEventListener('submit', currentFormSubmitListener);
 }
 
 function processPlaylistSubmission(name, author, art, songs, isEditing, playlistToEdit) {
@@ -422,12 +427,12 @@ function processPlaylistSubmission(name, author, art, songs, isEditing, playlist
             playlist_art: art,
             likes: 0, 
             songs: songs,
-            dateAdded: Date.now() // Record date added for new playlists
+            dateAdded: Date.now() 
         };
         playlistsData.unshift(newPlaylist);
     }
     
-    renderFilteredAndSortedPlaylists(); // Re-render with current filter/sort
+    renderFilteredAndSortedPlaylists(); 
     document.getElementById('main-modal').style.display = 'none'; 
 
     const modal = document.getElementById('main-modal');
@@ -437,20 +442,18 @@ function processPlaylistSubmission(name, author, art, songs, isEditing, playlist
 }
 
 
-// --- Search and Sort Event Listeners ---
+//  Search and Sort Event Listeners
 function setupSearchAndSortListeners() {
     const searchInput = document.getElementById('search-input');
     const searchButton = document.getElementById('search-btn');
     const clearSearchButton = document.getElementById('clear-search-btn');
     const sortSelect = document.getElementById('sort-select');
 
-    // Search button click
     searchButton.addEventListener('click', () => {
         currentSearchQuery = searchInput.value.trim();
         renderFilteredAndSortedPlaylists();
     });
 
-    // Enter key in search input
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             currentSearchQuery = searchInput.value.trim();
@@ -458,26 +461,24 @@ function setupSearchAndSortListeners() {
         }
     });
 
-    // Clear search button click
     clearSearchButton.addEventListener('click', () => {
-        searchInput.value = ''; // Clear text input
-        currentSearchQuery = ''; // Reset search query
-        renderFilteredAndSortedPlaylists(); // Re-render all playlists
+        searchInput.value = ''; 
+        currentSearchQuery = ''; 
+        renderFilteredAndSortedPlaylists(); 
     });
 
-    // Sort option change
     sortSelect.addEventListener('change', () => {
         currentSortOrder = sortSelect.value;
-        renderFilteredAndSortedPlaylists(); // Re-render with new sort order
+        renderFilteredAndSortedPlaylists(); 
     });
 }
 
 
-// --- Event Listeners and Initial Load ---
+// Event Listeners and Initial Load
 
 document.addEventListener('DOMContentLoaded', () => {
     loadInitialPlaylists(); 
-    setupSearchAndSortListeners(); // Setup the new search and sort listeners
+    setupSearchAndSortListeners(); 
 
     const addPlaylistButton = document.getElementById('add-playlist-btn');
     if (addPlaylistButton) {
