@@ -7,7 +7,7 @@
     "likes": 150,
     "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Luther", "duration": "2:08", "artist": "Kendrick Lamar ft SZA"}, 
     {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
     {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
     {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
@@ -22,13 +22,13 @@
     "playlist_art": "assets/img/evie-s-qLpf369DrCw-unsplash.jpg",
     "likes": 250,
     "songs": [
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Bad Blood", "duration": "2:35", "artist": "Taylor Swift"},
+    {"title": "Gratitude", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Kill Bill", "duration": "3:32", "artist": "SZA"}, 
+    {"title": "Who I am", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Carry You Home", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Pinnochio", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
 
@@ -39,13 +39,13 @@
     "playlist_art": "assets/img/luca-ercolani-pPLKOwxVmfE-unsplash.jpg",
     "likes": 190,
     "songs": [
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Before You Go", "duration": "2:33", "artist": "Alex War"},
+    {"title": "IMI", "duration": "2:00", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
@@ -55,28 +55,29 @@
     "playlist_art": "assets/img/matthew-stephenson--W2NIZ05WrM-unsplash.jpg",
     "likes": 310,
     "songs": [
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Bad Blood", "duration": "2:35", "artist": "Taylor Swift"},
+    {"title": "Gratitude", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "On My Way", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "Who I ma", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Carry You Home", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Pinnochio", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
     "playlistID": 5,
     "playlist_name": "Morning Energy",
     "playlist_author": "Sunrise Sound",
-    "playlist_art": "assets/img/playlist.png",
+    "playlist_art": "assets/img/duong-ngan-5Ih_FvfPDRE-unsplash.jpg",
+    "likes": 243,
     "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
@@ -86,13 +87,13 @@
     "playlist_art": "assets/img/schayan-kasmaei-REhMRF3-Q_I-unsplash.jpg",
     "likes": 220,
     "songs": [
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Bad Blood", "duration": "2:35", "artist": "Taylor Swift"},
+    {"title": "Gratitude", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "On My Way", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "Who I ma", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Carry You Home", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Pinnochio", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
@@ -103,12 +104,12 @@
     "likes": 145,
     "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
@@ -119,28 +120,28 @@
     "likes": 275,
     "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
     "playlistID": 9,
     "playlist_name": "Afro Fusion",
     "playlist_author": "Beat Master K",
-    "playlist_art": "assets/img/playlist.png",
+    "playlist_art": "assets/img/lorin-both-Y2gTUFJ2KYk-unsplash.jpg",
     "likes": 310,
     "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   },
   {
@@ -151,12 +152,92 @@
     "likes": 340,
     "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}, 
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
+    ]
+  },
+    {
+    "playlistID": 11,
+    "playlist_name": "Revenge",
+    "playlist_author": "Taylor Swift",
+    "playlist_art": "assets/img/danny-greenberg-Wm-SV83XnLM-unsplash.jpg",
+    "likes": 100,
+    "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
+    ]
+  },
+    {
+    "playlistID": 12,
+    "playlist_name": "Cowboy Carter",
+    "playlist_author": "Beyonce",
+    "playlist_art": "assets/img/vooglam-eyewear-eWlFJZ9xw5c-unsplash.jpg",
+    "likes": 221,
+    "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
+    ]
+  },
+    {
+    "playlistID": 13,
+    "playlist_name": "Ctrl",
+    "playlist_author": "SZA",
+    "playlist_art": "assets/img/lorin-both-2ScC2nkYYDk-unsplash.jpg",
+    "likes": 231,
+    "songs": [
+    {"title": "Luther", "duration": "2:30", "artist": "Kendrick Lamar ft SZA"},
+    {"title": "All The Stars", "duration": "3:08", "artist": "Kendrick Lamar ft SZA"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
+    ]
+  },
+    {
+    "playlistID": 14,
+    "playlist_name": "Espresso",
+    "playlist_author": "Sabrina Carpentar",
+    "playlist_art": "assets/img/anita-austvika-R-p7nxAna5Q-unsplash.jpg",
+    "likes": 654,
+    "songs": [
+    {"title": "Espresso", "duration": "2:32", "artist": "Sabrina Carpentar"},
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
+    ]
+  },
+    {
+    "playlistID": 15,
+    "playlist_name": "Pop",
+    "playlist_author": "Mashmellow",
+    "playlist_art": "assets/img/valentin-lacoste-_Jaf1UA37LQ-unsplash.jpg",
+    "likes": 432,
+    "songs": [
     {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"},
-    {"title": "Ye", "duration": "2:30", "artist": "Burna Boy"}
+    {"title": "Za", "duration": "2:08", "artist": "Anendlessocean"}, 
+    {"title": "Faded", "duration": "3:32", "artist": "Alan Walker"}, 
+    {"title": "On My Way", "duration": "2:17", "artist": "Alan Walker"},
+    {"title": "Ordinary", "duration": "2:32", "artist": "Alex Warren"},
+    {"title": "Jericho", "duration": "2:39", "artist": "Iniko"},
+    {"title": "Bloodline", "duration": "2:10", "artist": "Alex Warren"}
     ]
   }
 ]

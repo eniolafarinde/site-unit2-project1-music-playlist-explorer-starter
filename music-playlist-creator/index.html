@@ -6,31 +6,64 @@
     
     <title>Music Playlist Explorer</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Music Playlist Explorer</h1>
-        <nav>
-            <a href="#">Features</a>
-            <a href="#">All</a>
-        </nav>
-    </header>
+    </body>
+</html>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+      <div class="header-content">
+          <div class="logo-container">
+              <h1 class="logo">
+                  <span class="logo-icon">♫</span>
+                  <span class="logo-text">MusicPlay</span>
+              </h1>
+              <p class="welcome-text">Welcome to your Music Playlist Explorer</p>
+          </div>
+          <nav class="main-nav">
+              <a href="index.html" class="nav-link">All Playlists</a>
+              <a href="featured.html" class="nav-link">Featured</a>
+              
+          </nav>
+      </div>
+  </header>
 
     <main> 
-        <div class="playlist-cards">
-            
+        <div class="controls-container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search by name or artist..." aria-label="Search playlists">
+                <button id="search-btn" class="control-btn">Search</button>
+                <button id="clear-search-btn" class="control-btn">Clear</button>
+            </div>
+
+            <div class="sort-options">
+                <label for="sort-select">Sort By:</label>
+                <select id="sort-select" class="control-select">
+                    <option value="none">Default</option>
+                    <option value="name-asc">Playlist Name (A-Z)</option>
+                    <option value="likes-desc">Likes (High to Low)</option>
+                    <option value="date-desc">Date Added (Newest First)</option>
+                </select>
+            </div>
         </div>
+
+        <div class="playlist-cards">
+            </div>
+        <button id="add-playlist-btn" class="add-playlist-btn"> + Add New Playlist</button>
     </main>
-  <div class="modal-overlay" id="modal">
-    <div class="modal-content">
-      
+    
+    <div class="modal-overlay" id="main-modal">
+        <div class="modal-content" id="modal-content">
+            </div>
     </div>
-  </div>
 
     <footer>
-        <!-- Your footer content here -->
+        <h3>&copy; 2025 Eniola Olawumi Farinde</h3>
     </footer>
     
     <script src="script.js"></script>
